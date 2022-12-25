@@ -29,7 +29,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://indfocovid19-production-2929.up.railway.app'
 ]
 
-ALLOWED_HOSTS = ['indfocovid19-production-2929.up.railway.app']
+ALLOWED_HOSTS = ['https://indfocovid19-production-2929.up.railway.app']
 
 
 # Application definition
