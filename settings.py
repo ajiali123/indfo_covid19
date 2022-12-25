@@ -27,7 +27,7 @@ DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = [
     'indfocovid19-production-2929.up.railway.app'
-],
+]
 
 ALLOWED_HOSTS = ['*']
 
