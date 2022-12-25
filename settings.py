@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l@*1ep%=(n_7xgg_-vtfzm@_%!vr*n!8_jy=x)ltcy!#cac6t#
 DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = [
-    'indfocovid19-production-2929.up.railway.app'
+    'https://indfocovid19-production-2929.up.railway.app'
 ]
 
 ALLOWED_HOSTS = ['*']
@@ -148,7 +148,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    #'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
